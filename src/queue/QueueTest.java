@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class QueueTest {
     public static void main(String[] args) {
-        OrdinaryQueue queue = new OrdinaryQueue(3);
+        //创建普通队列实例
+        //OrdinaryQueue queue = new OrdinaryQueue(3);
+
+        //创建循环队列实例
+        CircularQueue queue = new CircularQueue(3);
         Scanner scanner = new Scanner(System.in);
         char key = ' ';
         boolean flag = true;
